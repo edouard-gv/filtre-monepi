@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Monepi filtres",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://monepi.fr/boutique/"],
+      "js": ["content.js"]
+    }
+  ]
+}
