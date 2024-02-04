@@ -5,7 +5,7 @@
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["https://monepi.fr/boutique/"],
+      "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
   ]
